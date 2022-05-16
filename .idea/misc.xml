@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/WeatherApp18022022/app/src/main/res/drawable/background_cloudly_weather.xml" value="0.1475" />
+        <entry key="..\:/WeatherApp18022022/app/src/main/res/drawable/background_day.xml" value="0.1475" />
+        <entry key="..\:/WeatherApp18022022/app/src/main/res/drawable/background_foggy_weather.xml" value="0.1475" />
+        <entry key="..\:/WeatherApp18022022/app/src/main/res/drawable/background_rainy_weather.xml" value="0.1475" />
+        <entry key="..\:/WeatherApp18022022/app/src/main/res/drawable/background_snowy_weather.xml" value="0.1475" />
+        <entry key="..\:/WeatherApp18022022/app/src/main/res/drawable/bottom_navigation_background.xml" value="0.1475" />
+        <entry key="..\:/WeatherApp18022022/app/src/main/res/drawable/bottom_navigation_color_selector.xml" value="0.1475" />
+        <entry key="..\:/WeatherApp18022022/app/src/main/res/drawable/ic_01n.xml" value="0.1475" />
+        <entry key="..\:/WeatherApp18022022/app/src/main/res/drawable/ic_03d.xml" value="0.1475" />
+        <entry key="..\:/WeatherApp18022022/app/src/main/res/drawable/ic_04d.xml" value="0.1475" />
+        <entry key="..\:/WeatherApp18022022/app/src/main/res/drawable/ic_09n.xml" value="0.1475" />
+        <entry key="..\:/WeatherApp18022022/app/src/main/res/drawable/ic_10d.xml" value="0.1475" />
+        <entry key="..\:/WeatherApp18022022/app/src/main/res/drawable/ic_five_days.xml" value="0.1475" />
+        <entry key="..\:/WeatherApp18022022/app/src/main/res/drawable/ic_humidity.xml" value="0.1475" />
+        <entry key="..\:/WeatherApp18022022/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1475" />
+        <entry key="..\:/WeatherApp18022022/app/src/main/res/drawable/ic_location.xml" value="0.1475" />
+        <entry key="..\:/WeatherApp18022022/app/src/main/res/drawable/location_header_background.xml" value="0.1475" />
+        <entry key="..\:/WeatherApp18022022/app/src/main/res/drawable/underline_item_layout.xml" value="0.1475" />
+        <entry key="..\:/WeatherApp18022022/app/src/main/res/layout/activity_main.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
