@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/lytDetailLocation"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".presentation.activities.MainActivity"
     android:background="@drawable/ic_background_night"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
