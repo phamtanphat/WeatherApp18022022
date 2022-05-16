@@ -44,6 +44,5 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
     // LiveData
     implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
-    //Loading
-    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+
 }

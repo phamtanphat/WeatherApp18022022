@@ -28,7 +28,7 @@ public class RetrofitClient {
         return instance;
     }
 
-    public Retrofit createRetrofit() {
+    private Retrofit createRetrofit() {
         OkHttpClient okHttpClient = new OkHttpClient.Builder()
                 .readTimeout(30, TimeUnit.SECONDS)
                 .writeTimeout(30, TimeUnit.SECONDS)
@@ -44,7 +44,7 @@ public class RetrofitClient {
                 .build();
     }
 
-    public ApiService createApiService(Retrofit retrofit) {
+    private ApiService createApiService(Retrofit retrofit) {
         return retrofit.create(ApiService.class);
     }
 
