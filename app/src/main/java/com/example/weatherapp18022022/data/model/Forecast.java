@@ -11,7 +11,7 @@ public class Forecast {
     private Wind wind;
     @SerializedName("dt")
     @Expose
-    private Integer currentTime;
+    private Long currentTime;
     private String name;
     private Integer cod;
     private String message;
@@ -24,11 +24,11 @@ public class Forecast {
         this.message = message;
     }
 
-    public Integer getCurrentTime() {
+    public Long getCurrentTime() {
         return currentTime;
     }
 
-    public void setCurrentTime(Integer currentTime) {
+    public void setCurrentTime(Long currentTime) {
         this.currentTime = currentTime;
     }
 

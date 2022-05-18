@@ -15,6 +15,9 @@ import com.example.weatherapp18022022.data.model.Main;
 import com.example.weatherapp18022022.data.repositories.ForecastRepository;
 import com.example.weatherapp18022022.presentation.viewmodel.MainViewModel;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
 public class MainActivity extends AppCompatActivity {
 
     MainViewModel mainViewModel;
@@ -33,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
         mainViewModel.getForecastData().observe(this, new Observer<Forecast>() {
             @Override
             public void onChanged(Forecast forecast) {
-                Log.d("BBB",forecast.toString());
+                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+                Log.d("BBB",simpleDateFormat.format(forecast.getCurrentTime() * 1000) + "");
             }
         });
 
